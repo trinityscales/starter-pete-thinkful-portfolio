@@ -20,13 +20,9 @@ h3 {
 header,
 .logo {
   display: flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
-/* .navigation {
-  margin: auto 30px;
-} */
 
 /* Containers */
 div {
