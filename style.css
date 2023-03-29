@@ -21,11 +21,12 @@ header,
 .logo {
   display: flex;
  justify-content: center;
+ align-items: center;
 }
 
-.navigation {
+/* .navigation {
   margin: auto 30px;
-}
+} */
 
 /* Containers */
 div {
