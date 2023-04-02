@@ -40,14 +40,22 @@ article div {
   width: 100%;
 }
 
+.info {
+  text-align: left;
+}
+
+#about.about {
+  display: flex;
+}
+
 .portfolio {
   display: flex;
+  font-size: 14px;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
-  font-size: 14px;
 }
 
 /* Links */
@@ -73,11 +81,6 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
-}
-
-.about {
-  display: flex;
-  justify-content: space-around;
 }
 
 /* Footer */
