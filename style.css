@@ -2,93 +2,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
-  background-color: #eae2b7;
-  color: #003049;
-  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+background-color: #eae2b7;
+color: #003049;
+font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+padding: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Headings */
 h1,
 h2,
 h3 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: center;
+font-family: "Playfair Display", Times, serif;
+text-align: center;
 }
 
 /* Header */
-header,
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+text-align: center;
+display: flex;
+align-items: center;
+column-gap: 30px;
 }
 
 /* Containers */
 div {
-  background-color: #eae2b7;
-  margin: auto;
-  width: 600px;
+background-color: #eae2b7;
+margin: auto;
+width: 600px;
 }
 
 article {
-  padding: 50px 0;
+padding: 50px 0;
 }
 
 article div {
-  text-align: center;
-  width: 100%;
+text-align: center;
+width: 100%;
 }
 
 .info {
-  text-align: left;
+text-align: left;
 }
 
-#about.about {
-  display: flex;
+#about .about {
+display: flex;
 }
 
 .portfolio {
-  display: flex;
-  font-size: 14px;
+display: flex;
+font-size: 14px;
 }
 
 /* Paragraphs */
 p {
-  line-height: 1.5;
+line-height: 1.5;
 }
 
 /* Links */
 a:link {
-  color: #d62828;
+color: #d62828;
 }
 
 a:hover {
-  color: #f77f00;
+color: #f77f00;
 }
 
 nav a {
-  padding-left: 20px;
+padding-left: 20px;
 }
 
 /* Images */
 img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
+width: 100%;
+max-width: 200px;
+height: auto;
 }
 
 .image-circle {
-  border: 2px solid #003049;
-  border-radius: 50%;
+border: 2px solid #003049;
+border-radius: 50%;
 }
 
 /* Footer */
 footer {
-  text-align: center;
+text-align: center;
 }
 
 /* Other page elements */
 hr {
-  border: 1px solid black;
+border: 1px solid black;
 }
